@@ -316,7 +316,7 @@
 				<var id="NoneOfTheAbove_pt2">NoneOfTheAbove_pts[1]</var>
 				
 				<!--To generate the multiple choice solutions and choose the solution-->
-				<var id="solution_array"> [ "vertical angles", "adjacent angles", "a linear pair", "none of the above"] </var>
+				<var id="solution_array"> [ "vertical angles", "adjacent angles", "a linear pair", "None of the above."] </var>
 				
 				<var id="angle2_pt1_array">[VertAngle_pt1, AdjAngle_pt1, LinPair_pt1, NoneOfTheAbove_pt1]</var>
 				<var id="angle2_pt2_array">[VertAngle_pt2, AdjAngle_pt2, LinPair_pt2, NoneOfTheAbove_pt2]</var>
@@ -387,13 +387,14 @@
 			</div>
 
 			
-			<div class "solution">
+			<div class = "solution">
 			<p class="solution"><var>SOLUTION</var> </p>
 
-		<ul class="choices">
-    <li><var>solution_array[(index+1)%4]</var></li>
-	<li><var>solution_array[(index+2)%4]</var></li>
-	<li><var>solution_array[(index+3)%4]</var></li>
+		<ul class="choices" data-category="true">
+    	<li><var>solution_array[0]</var></li>
+	<li><var>solution_array[1]</var></li>
+	<li><var>solution_array[2]</var></li>
+	<li><var>solution_array[3]</var></li>
  		</ul>
 			</div>
 				
