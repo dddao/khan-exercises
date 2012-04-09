@@ -114,7 +114,7 @@
 		<div id="Problem_1a">	
 			
 			<div class="question">
-				<p class> Name an angle vertical to <code>\angle <var>angle1_pt1</var><var>g</var><var>angle1_pt2</var></code>.</p>
+				<p class> Name the angle vertical to <code>\angle <var>angle1_pt1</var><var>g</var><var>angle1_pt2</var></code>.</p>
 
 				<div id = "original" class="graphie">
 					<!--Draw the plane and the lines-->
@@ -329,7 +329,6 @@
 
 				<!--For hint 4, highlighting the angles-->
 				<var id="location_array">[Line2_endPt1, Line3_endPt1, Line1_endPt2, Line2_endPt2, Line3_endPt2, Line1_endPt1]</var>
-				<var id="points_array">[b, c, d, e, f, a]</var>
 				
 				<script type = "text/javascript">		
 				Array.prototype.findIndex = function(value){
@@ -343,8 +342,8 @@
 				};
 				</script>
 
-				<var id = "angle2_pt1_index">points_array.findIndex(angle2_pt1)</var>
-				<var id = "angle2_pt2_index">points_array.findIndex(angle2_pt2)</var>
+				<var id = "angle2_pt1_index">array.findIndex(angle2_pt1)</var>
+				<var id = "angle2_pt2_index">array.findIndex(angle2_pt2)</var>
 				
 			</div>
 			
